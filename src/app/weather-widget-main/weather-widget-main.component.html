@@ -1,0 +1,9 @@
+<form (ngSubmit)="enterLocationData()">
+    <mat-form-field appearance="outline">
+        <mat-label>City</mat-label>
+        <input name="city" type="text" [(ngModel)]="city" matInput placeholder="City">
+        <mat-hint>City</mat-hint>
+      </mat-form-field>
+
+      <button type="submit" mat-button color="primary">Search</button>
+</form>
